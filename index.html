@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/469fd1125b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">KEVIN</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <!-- <div class="contenedor-img">
+                <img src="img/perfil.jpg" alt="">
+            </div> -->
+            <h1>KEVIN ARAUZ</h1>
+            <h2>T&eacute;cnico en Ingenier&iacute;a de Software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100023322606109"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/keviin._03/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/ArauzKevin"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Kevin Arauz.</span> un estudiante apasionado de desarrollo 
+                de software con un enfoque en la creación de soluciones tecnológicas efectivas. 
+                Me encanta trabajar en paginas web y en base da datos, dejando un buen trabajo atras.
+            </p>
+            <p>
+                Soy un líder en crecimiento con una mentalidad innovadora y sólidos conocimientos técnicos. 
+                Mi objetivo es seguir aprendiendo, y asi llegar hacer un gran programador.
+            </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +503 7880-3490
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jm9777296@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            San Miguel, El Salvador
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <a href="http://wa.me/+50378803490"> 
+                <button>
+                    Contactame <i class="fa-brands fa-whatsapp"></i>
+                    <span class="overlay1"></span>
+                </button>
+            </a>
+           
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades T&eacute;cnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                      
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                       
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                       
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profecionales</h3>
+                    <div class="skill">
+                        <span>Gestion del Tiempo</span>
+                            
+                    </div>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                    
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                       
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            
+            <!-- <a href="CV-Kevin.pdf" download="Kevin Arauz-Curriculum.pdf" class="download-btn">Descargar Currículum</a> -->
+            <div class="fila">
+                 <div class="col izquierda">
+                    <p>
+                        ¡Gracias por tu interés en conocer más sobre mi perfil profesional! A continuación, 
+                        puedes descargar mi currículum para obtener detalles sobre mi formación académica, 
+                        experiencia laboral y habilidades. No dudes en contactarme si tienes alguna pregunta 
+                        o si estás interesado en trabajar juntos.
+                    </p>
+                </div>
+
+                <div class="col derecha">
+                    <div class="cv-card">
+                        <img src="img/cv.png" alt="Captura del CV" class="cv-image">
+                        <div class="overlay">
+                            <a href="CV-Kevin.pdf" download="Kevin Arauz.pdf" class="download-btn">Descargar Currículum</a>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PROYECTOS -->
+    <section id="proyectos" class="proyectos">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="proyectos-card">
+                <img src="img/proyecto1.jpeg" alt="proyecto1" class="proyectos-img">
+                <div class="overlay-proyectos">
+                    <div class="content-proyectos">
+                        <h4>"Dashboard Básico con Vue.js"</h4>
+                        <button id="" class="botonVerMas">
+                            <i class="fa-solid fa-circle-info fa-lg"></i>
+                            Ver mas
+                        </button><br>
+                                            
+                    </div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span><br>
+                            <h3>"Dashboard Básico con Vue.js"</h3><br>
+                            <p>
+                                Este Dashboard es una aplicaci&oacute;n web b&aacute;sica desarrollada con Vue.js que proporciona 
+                                una interfaz de usuario interactiva y f&aacute;cil de usar. El dashboard destaca por su men&uacute; 
+                                desplegable din&aacute;mico, permitiendo a los usuarios navegar de manera eficiente por diferentes 
+                                secciones. Una caracter&iacute;stica particular es su secci&oacute;n de configuraci&oacute;n, donde los usuarios pueden 
+                                personalizar su perfil introduciendo un nombre y una URL para su foto de perfil. Cabe mencionar que 
+                                esta aplicación solo acepta URLs para las im&aacute;genes y la informaci&oacute;n del perfil se almacena localmente. 
+                                Aunque el contenido actual se centra en informaci&oacute;n de muestra sobre una empresa, la estructura y las 
+                                funcionalidades de esta aplicación la hacen adaptable a diversas necesidades y contextos.                            
+                            </p>
+                            <a href="https://github.com/ArauzKevin/vue.git" >
+                                <button class="btn-proyectos">
+                                    <i class="fa-brands fa-github fa-2xl"></i>
+                                    Ver en GitHub
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="proyectos-card">
+                <img src="img/proyecto2.png" alt="proyecto2" class="proyectos-img">
+                <div class="overlay-proyectos">
+                    <div class="content-proyectos">
+                        <h4>"Pokemon Explorer utilizando API"</h4>
+                        <button id="" class="botonVerMas">
+                            <i class="fa-solid fa-circle-info fa-lg"></i>
+                            Ver mas
+                        </button><br>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span><br>
+                            <h3>"Pokemon Explorer utilizando API</h3><br>
+                            <p>
+                                Pokemon Explorer es una herramienta interactiva diseñada para los aficionados de Pokémon. Utilizando una API robusta que 
+                                almacena información detallada sobre cada Pokémon, nuestra plataforma permite a los usuarios buscar y explorar sus 
+                                Pokémon favoritos con facilidad. Al seleccionar una tarjeta específica, se revela información detallada sobre el Pokémon, 
+                                incluidos sus puntos de vida, ataque y defensa. Ideal para aquellos que desean tener una referencia rápida y visual de la 
+                                vasta biblioteca de criaturas Pokémon.
+                            </p>
+                            <a href="https://github.com/ArauzKevin/prokedex.git" >
+                                <button class="btn-proyectos">
+                                    <i class="fa-brands fa-github fa-2xl"></i>
+                                    Ver en GitHub
+                                </button>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="proyectos-card">
+                <img src="img/proyecto3.png" alt="proyecto3" class="proyectos-img">
+                <div class="overlay-proyectos">
+                    <div class="content-proyectos">
+                        <h4>"Angular TaskManager"</h4>
+                        <button id="" class="botonVerMas">
+                            <i class="fa-solid fa-circle-info fa-lg"></i>
+                            Ver mas
+                        </button><br>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span><br>
+                            <h3>"Angular TaskManager</h3><br>
+                            <p>
+                                "Angular TaskManager" es una aplicación b&aacute;sica dise&ntilde;ada para administrar y organizar tareas diarias. 
+                                Los usuarios pueden agregar f&aacute;cilmente nuevas tareas y, una vez a&ntilde;adidas, gestionarlas mediante opciones para editar, 
+                                eliminar o marcar su estado como completado o pendiente. Todo ello presentado en una interfaz sencilla y directa. 
+                                Esta aplicaci&oacute;n ha sido desarrollada utilizando el framework Angular, aprovechando sus capacidades para ofrecer una 
+                                experiencia fluida y eficiente al usuario.
+                            </p>
+                            <a href="https://github.com/ArauzKevin/angular.git" >
+                                <button class="btn-proyectos">
+                                    <i class="fa-brands fa-github fa-2xl"></i>
+                                    Ver en GitHub
+                                </button>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <!-- Formulario -->
+            <div class="fila">
+                <div class="col">
+                    <form name="form1" method="POST" onsubmit="return Comprobar(this)" action= "mailto:jm9777296@gmail.com?subject=asunto" enctype ="text/plain" >   
+                        <input type="text" id="nombre" name="nombre" placeholder="Tú Nombre">
+                        <input type="text" id="telefono" name="telefono" placeholder="Número telefónico">
+                        <input type="text" id="correo" name="correo" placeholder="Dirección de correo">
+                        <input type="text" id="tema" name="tema" placeholder="Tema">
+                        <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            <button>
+                                Enviar Mensaje 
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span class="overlay1"></span>
+                            </button>
+                        </div>
+                    </form>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mapa.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                San Migeul, El Salvador
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +503 7880-3490
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: jm9777296@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="http://wa.me/+50378803490"> 
+                            <button>
+                                Contactame <i class="fa-brands fa-whatsapp"></i>
+                                <span class="overlay1"></span>
+                            </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100023322606109"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/keviin._03/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/ArauzKevin"><i class="fa-brands fa-github"></i></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
